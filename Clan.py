@@ -51,3 +51,5 @@ class Clan(object):
 		for arista in self.__generate_edges():
 			res += str(arista) + " "
 		return res
+
+	
